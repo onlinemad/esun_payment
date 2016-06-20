@@ -6,6 +6,10 @@ describe('cardlink', function() {
     SID: '',
     KEY: '123456789ABCDEF123456789ABCDEF'
   }
+  describe('#mac()', function() {
+    var mac = cardlink.mac({TxnType:'A',Account:'testacct'}, sample_config.KEY);
+    expect(mac).to.equal('6125537529184f83096449d5e04a68732a72ce434e580940dccd73d2ced3d389');
+  });
   describe('#hash()', function() {
     var esun = new cardlink(sample_config);
     var hashed_payload = esun.hash({TxnType:'A',Account:'testacct'});
