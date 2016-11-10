@@ -1,6 +1,6 @@
 {
   "name": "esun_payment",
-  "version": "0.0.3",
+  "version": "0.1.0-1",
   "description": "玉山銀行網路交易介接工具箱",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/onlinemad/esun_payment.git"
   },
   "keywords": [
-    "esun"
+    "esun",
+    "taiwan"
   ],
   "author": "Ian Wu <onlinemad@gmail.com>",
   "license": "MIT",
@@ -22,7 +23,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "debug": "^2.2.0",
-    "mocha": "^2.5.3",
-    "should": "^9.0.2"
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
   }
 }
