@@ -1,1 +1,1 @@
-module.exports.cardlink = require('./lib/cardlink');
+module.exports = require('./lib/esun')
